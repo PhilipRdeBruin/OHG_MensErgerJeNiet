@@ -1,4 +1,4 @@
-
+ 
 .rij {
     clear           : left;
     width           : 100%;
@@ -14,16 +14,62 @@
 }
 
 .pinkleur {
-	width			: 22px;	
-	height			: 22px;
+	width			: 28px;	
+	height			: 28px;
+}
+
+#beelscherm {
+    width           : 100%;
+}
+
+#zij-kolom {
+    float               : left;
+    width               : 165px;
+}
+
+#card-b {
+    margin              : auto;
+    width               : 90%;
+}
+
+#card-o {
+    margin              : 360px auto auto auto;
+    width               : 90%;
+}
+
+.foto-hdr, .foto-hdr-act {
+    margin-top          : 25px;
+    padding             : 3px 10px;
+    font-size           : 16px;
+    font-weight         : bold;
+    color               : white;
+    text-align          : center;
+}
+
+.foto-hdr {
+    color               : #afc;
+    background          : #040;
+}
+
+.foto-hdr-act {
+    color               : #fcc;
+    background          : #f00;   
+}
+
+.foto-img {
+    margin-top          : 0px;
+    width               : 100%;
+    height              : auto;
 }
 
 #speelbord {
-    display         	: block;
+    float               : left;
+    /* display         	: block; */
+    /* margin           : auto; */
     width           	: 880px;
     height          	: 886px;
-	padding-top			: 12px;
-	padding-left		: 18px;
+	padding-top			: 10px;
+	padding-left		: 20px;
     background-image    : url("mejn.png");
 	background-size		: cover;
 }
@@ -35,13 +81,18 @@
 /*	border				: 2px solid blue; */
 }
 
-.dropholder {
-    float				: left;
+.dragcl {
+	width				: 30px;
+	height				: 30px;
 }
 
+.dropholder {
+	float				: left;
+} 
+
 .dropid {
-	
-}
+
+} 
 
 .rondwit {
     background-image		: url("Rondje_wit.png");
@@ -53,8 +104,58 @@
     background-size			: contain;
 }
 
+.rondblauw_A {
+    background-image		: url("Rondje_blauw_A.png");
+    background-size			: contain;
+}
+
+.rondblauw-a {
+    background-image		: url("Rondje_blauw-a.png");
+    background-size			: contain;
+}
+
+.rondblauw-b {
+    background-image		: url("Rondje_blauw-b.png");
+    background-size			: contain;
+}
+
+.rondblauw-c {
+    background-image		: url("Rondje_blauw-c.png");
+    background-size			: contain;
+}
+
+.rondblauw-d {
+    background-image		: url("Rondje_blauw-d.png");
+    background-size			: contain;
+}
+
 .rondgeel {
     background-image		: url("Rondje_geel.png");
+    background-size			: contain;
+}
+
+.rondgeel_A {
+    background-image		: url("Rondje_geel_A.png");
+    background-size			: contain;
+}
+
+.rondgeel-a {
+    background-image		: url("Rondje_geel-a.png");
+    background-size			: contain;
+}
+
+.rondgeel-b {
+    background-image		: url("Rondje_geel-b.png");
+    background-size			: contain;
+}
+
+.rondgeel-c {
+    background-image		: url("Rondje_geel-c.png");
+    background-size			: contain;
+}
+
+.rondgeel-d {
+    background-image		: url("Rondje_geel-d.png");
     background-size			: contain;
 }
 
@@ -63,26 +164,77 @@
     background-size			: contain;
 }
 
+.rondgroen_A {
+    background-image		: url("Rondje_groen_A.png");
+    background-size			: contain;
+}
+
+.rondgroen-a {
+    background-image		: url("Rondje_groen-a.png");
+    background-size			: contain;
+}
+
+.rondgroen-b {
+    background-image		: url("Rondje_groen-b.png");
+    background-size			: contain;
+}
+
+.rondgroen-c {
+    background-image		: url("Rondje_groen-c.png");
+    background-size			: contain;
+}
+
+.rondgroen-d {
+    background-image		: url("Rondje_groen-d.png");
+    background-size			: contain;
+}
+
 .rondrood {
     background-image		: url("Rondje_rood.png");
+    background-size			: contain;
+}
+
+.rondrood_A {
+    background-image		: url("Rondje_rood_A.png");
+    background-size			: contain;
+}
+
+.rondrood-a {
+    background-image		: url("Rondje_rood-a.png");
+    background-size			: contain;
+}
+
+.rondrood-b {
+    background-image		: url("Rondje_rood-b.png");
+    background-size			: contain;
+}
+
+.rondrood-c {
+    background-image		: url("Rondje_rood-c.png");
+    background-size			: contain;
+}
+
+.rondrood-d {
+    background-image		: url("Rondje_rood-d.png");
     background-size			: contain;
 }
 
 .sz30 {
 	margin-top				: 36px;
 	margin-left				: 28px;
-	padding-top				: 3px;
-	width					: 30px;
-	height					: 30px;
+	padding-left			: 0px;
+	width					: 26px;
+	height					: 26px;
 	background-repeat		: no-repeat;
 }
 
 .sz50 {
 	margin-top				: 28px;
-	margin-left				: 19px;
-	padding-top				: 2px;
-	width					: 45px;
-	height					: 45px;
+    margin-left				: 19px;
+    width					: 35px;
+    height					: 35px;
+    padding-top             : 10px;
+    padding-left            : 10px;
 	background-repeat		: no-repeat;
 }
 
