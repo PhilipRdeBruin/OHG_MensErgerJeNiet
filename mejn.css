@@ -33,8 +33,29 @@
 }
 
 #card-o {
-    margin              : 360px auto auto auto;
+    margin              : 50px auto auto auto;
     width               : 90%;
+}
+
+#chatbox, #dobbelbox {
+    margin-top          : 50px;
+    margin-left         : 5%;
+    width               : 90%;
+    height              : 260px;
+    font-size           : 14px;
+    text-align          : center;
+}
+
+#chatbox {
+    color               : #444;
+    background          : #bbb;
+    border              : 1px solid #888;
+}
+
+#dobbelbox {
+    color               : #bbb;
+    background          : #360;
+    border              : 4px solid #420;
 }
 
 .foto-hdr, .foto-hdr-act {

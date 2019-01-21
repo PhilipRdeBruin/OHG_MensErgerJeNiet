@@ -10,21 +10,36 @@
         <script src="mejn_dragndrop.js"></script>
 		<!-- <script src="mejnQuery.js"></script> -->
 		<link rel="stylesheet" href="mejn.css">
-		<?php // require_once "mejn_php-functies.php"; ?>
+		<?php require_once "includes/mejn_php-functies.php"; ?>
 	</head>
 
     <body>
 
+    <?php
+        if (isset($_GET["kleur1"])) {
+            $kleur1 = $_GET["kleur1"];
+        } else {
+            $kleur1 = "blauw";
+        }
+
+        for ($i=1;$i<=4;$i++) { $act[$i] = ""; }
+        $spelerx[1] = "Hans Poelman";
+        $spelerx[2] = "Jacomijn Steen";
+        $spelerx[3] = "Hergen Dillema";
+        $spelerx[4] = "Philip de Bruin";
+        $act[1] = "-act";
+
+        echo '<script>init_spelbord("' . $kleur1 . '")</script>';
+        $spelery = assign_spelers($kleur1, $spelerx);
+    ?>
+
         <div id="beeldscherm">
             <div id="zij-kolom">
-                <div id="card-b">
-                    <p class=foto-hdr-act>Jacomijn</p>
-                    <img class="foto-img" src="afbeeldingen/Jacomijn_Steen.png" alt="foto van Jacomijn Steen">
+                <?php div_speler_img("b", $spelery[2], $act[2]); ?>
+                <div id="chatbox">
+                    <p>chatbox</p>
                 </div>
-                <div id="card-o">
-                    <p class=foto-hdr>Hans</p>
-                    <img class="foto-img" src="afbeeldingen/Hans_Poelman.png" alt="foto van Hans Poelman">
-                </div>
+                <?php div_speler_img("o", $spelery[1], $act[1]); ?>
             </div>
             <div id="speelbord">
                 <div id="speelbord2">
@@ -54,14 +69,11 @@
                 </div>
             </div>
             <div id="zij-kolom">
-                <div id="card-b">
-                    <p class=foto-hdr>Hergen</p>
-                    <img class="foto-img" src="afbeeldingen/Hergen_Dillema.png" alt="foto van Hergen Dillema">
+                <?php div_speler_img("b", $spelery[3], $act[3]); ?>
+                <div id="dobbelbox">
+                    <p>dobbelbox</p>
                 </div>
-                <div id="card-o">
-                    <p class=foto-hdr>Philip</p>
-                    <img class="foto-img" src="afbeeldingen/Philip_de_Bruin.png" alt="foto van Philip de Bruin">
-                </div>
+                <?php div_speler_img("o", $spelery[4], $act[4]); ?>
             </div>
         </div>
 
