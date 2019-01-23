@@ -42,20 +42,28 @@
     margin-left         : 5%;
     width               : 90%;
     height              : 260px;
-    font-size           : 14px;
     text-align          : center;
 }
 
 #chatbox {
+    font-size           : 14px;
     color               : #444;
-    background          : #bbb;
+    background          : #ddd;
     border              : 1px solid #888;
 }
 
 #dobbelbox {
+    font-size           : 18px;
     color               : #bbb;
     background          : #360;
     border              : 4px solid #420;
+}
+
+#dobbelkader {
+    width               : 95%;
+    height              : 252px;
+    border              : 4px solid greenyellow;
+    background          : #360;
 }
 
 .foto-hdr, .foto-hdr-act {
@@ -113,130 +121,150 @@
 
 .dropid {
 
-} 
+}
+
+#dobbelsteen {
+    margin-top          : 35px;
+    width               : 40%;
+    height              : auto;
+}
+
+#dobbelen {
+    margin-top          : 35px;
+    padding             : 3px 10px 2px 10px;
+    font-size           : 18px;
+    /* font-weight         : bold; */
+    color               : #ddf;
+    background          : #24a;
+    border-radius       : 5px;
+}
+
+#dobbelen:hover {
+    cursor              : pointer;
+}
 
 .rondwit {
-    background-image		: url("Rondje_wit.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_wit.png");
     background-size			: contain;
 }
 
 .rondblauw {
-    background-image		: url("Rondje_blauw.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_blauw.png");
     background-size			: contain;
 }
 
 .rondblauw_A {
-    background-image		: url("Rondje_blauw_A.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_blauw_A.png");
     background-size			: contain;
 }
 
 .rondblauw-a {
-    background-image		: url("Rondje_blauw-a.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_blauw-a.png");
     background-size			: contain;
 }
 
 .rondblauw-b {
-    background-image		: url("Rondje_blauw-b.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_blauw-b.png");
     background-size			: contain;
 }
 
 .rondblauw-c {
-    background-image		: url("Rondje_blauw-c.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_blauw-c.png");
     background-size			: contain;
 }
 
 .rondblauw-d {
-    background-image		: url("Rondje_blauw-d.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_blauw-d.png");
     background-size			: contain;
 }
 
 .rondgeel {
-    background-image		: url("Rondje_geel.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_geel.png");
     background-size			: contain;
 }
 
 .rondgeel_A {
-    background-image		: url("Rondje_geel_A.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_geel_A.png");
     background-size			: contain;
 }
 
 .rondgeel-a {
-    background-image		: url("Rondje_geel-a.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_geel-a.png");
     background-size			: contain;
 }
 
 .rondgeel-b {
-    background-image		: url("Rondje_geel-b.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_geel-b.png");
     background-size			: contain;
 }
 
 .rondgeel-c {
-    background-image		: url("Rondje_geel-c.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_geel-c.png");
     background-size			: contain;
 }
 
 .rondgeel-d {
-    background-image		: url("Rondje_geel-d.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_geel-d.png");
     background-size			: contain;
 }
 
 .rondgroen {
-    background-image		: url("Rondje_groen.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_groen.png");
     background-size			: contain;
 }
 
 .rondgroen_A {
-    background-image		: url("Rondje_groen_A.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_groen_A.png");
     background-size			: contain;
 }
 
 .rondgroen-a {
-    background-image		: url("Rondje_groen-a.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_groen-a.png");
     background-size			: contain;
 }
 
 .rondgroen-b {
-    background-image		: url("Rondje_groen-b.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_groen-b.png");
     background-size			: contain;
 }
 
 .rondgroen-c {
-    background-image		: url("Rondje_groen-c.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_groen-c.png");
     background-size			: contain;
 }
 
 .rondgroen-d {
-    background-image		: url("Rondje_groen-d.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_groen-d.png");
     background-size			: contain;
 }
 
 .rondrood {
-    background-image		: url("Rondje_rood.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_rood.png");
     background-size			: contain;
 }
 
 .rondrood_A {
-    background-image		: url("Rondje_rood_A.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_rood_A.png");
     background-size			: contain;
 }
 
 .rondrood-a {
-    background-image		: url("Rondje_rood-a.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_rood-a.png");
     background-size			: contain;
 }
 
 .rondrood-b {
-    background-image		: url("Rondje_rood-b.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_rood-b.png");
     background-size			: contain;
 }
 
 .rondrood-c {
-    background-image		: url("Rondje_rood-c.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_rood-c.png");
     background-size			: contain;
 }
 
 .rondrood-d {
-    background-image		: url("Rondje_rood-d.png");
+    background-image		: url("afbeeldingen/rondjes/Rondje_rood-d.png");
     background-size			: contain;
 }
 

@@ -71,7 +71,11 @@
             <div id="zij-kolom">
                 <?php div_speler_img("b", $spelery[3], $act[3]); ?>
                 <div id="dobbelbox">
+                <div id="dobbelkader">
                     <p>dobbelbox</p>
+                    <img id="dobbelsteen" src="afbeeldingen/dobbelstenen/dice13.png" alt="dobbelsteen">
+                    <p><button id="dobbelen">dobbelen</button></p>
+                </div>
                 </div>
                 <?php div_speler_img("o", $spelery[4], $act[4]); ?>
             </div>

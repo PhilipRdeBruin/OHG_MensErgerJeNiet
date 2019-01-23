@@ -26,12 +26,10 @@
 
     function div_speler_img($pcl, $naam, $act) {
         $imgnaam = str_ireplace(" ", "_", $naam);
-        $src = '"afbeeldingen/' . $imgnaam . '.png" alt="foto van ' . $naam . '"';
-        $msg = "src = $src";
 
         echo '<div id="card-' . $pcl . '">';
         echo '<p class=foto-hdr' . $act . '>' . $naam . '</p>';
-        echo '<img class="foto-img" src="afbeeldingen/' . $imgnaam . '.png" alt="foto van ' . $naam . '">';
+        echo '<img class="foto-img" src="afbeeldingen/fotos/' . $imgnaam . '.png" alt="foto van ' . $naam . '">';
         echo '</div>';
     }
 

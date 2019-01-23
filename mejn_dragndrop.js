@@ -4,31 +4,6 @@ var dropitem;
 var ouderfrom;
 var ouderto;
 
-//	Drag & Drop functions
-
-// function allowDrop(ev) {
-// 	ev.preventDefault();
-// }
-
-// function drag(ev) {
-// 	dragitem = ev.target;
-// 	dragparent = dragitem.parentNode.id
-// 	dragid = dragitem.id;
-
-//     ev.dataTransfer.setData("text", ev.target.id);
-
-//     ouder = document.getElementById(dragid).parentElement.id;
-//     kloon = dragitem.cloneNode(true);
-// }
-
-// function drop(ev) {
-// 	dropitem = ev.target;
-// 	dropid = dropitem.id;
-
-// 		ev.preventDefault();
-// 		var data = ev.dataTransfer.getData("text");
-// 		ev.target.appendChild(document.getElementById(data));
-// }
 
 /*		Drag & Drop functies		*/
 
