@@ -54,7 +54,7 @@ function drop(ev) {
 	dragid = dragitem.id;
 	dropid = dropitem.id;
 
-    // alert ("dragid, dropid, ouderfrom = " + dragid + ", " + dropid + ", " + ouderfrom);
+    alert ("dragid, dropid, ouderfrom = " + dragid + ", " + dropid + ", " + ouderfrom);
 
 	$("#" + dropid).empty();
 	document.getElementById(dropid).appendChild(clndrag);
